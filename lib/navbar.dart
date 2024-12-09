@@ -29,7 +29,7 @@ class HomePage extends StatefulWidget {
 }
 
 class _HomePageState extends State<HomePage> {
-  int _currentIndex = 1; // Set Beranda (index 1) sebagai halaman awal
+  int _currentIndex = 0; // Set Beranda (index 1) sebagai halaman awal
 
   // Daftar halaman yang akan ditampilkan berdasarkan indeks
   final List<Widget> _pages = [];
